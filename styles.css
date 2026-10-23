@@ -1,0 +1,79 @@
+.bulk-props .bulk-props-search {
+	width: 100%;
+	margin-bottom: var(--size-4-2);
+}
+
+.bulk-props .bulk-props-list {
+	max-height: 50vh;
+	overflow-y: auto;
+	border: 1px solid var(--background-modifier-border);
+	border-radius: var(--radius-s);
+}
+
+.bulk-props .bulk-props-preview {
+	max-height: 25vh;
+}
+
+.bulk-props .bulk-props-row {
+	display: flex;
+	align-items: center;
+	gap: var(--size-4-2);
+	padding: var(--size-4-1) var(--size-4-2);
+	cursor: pointer;
+}
+
+.bulk-props .bulk-props-row:hover {
+	background: var(--background-modifier-hover);
+}
+
+.bulk-props .bulk-props-name {
+	flex: 1;
+	overflow-wrap: anywhere;
+}
+
+.bulk-props .bulk-props-name.is-empty,
+.bulk-props .bulk-props-none {
+	color: var(--text-muted);
+	font-style: italic;
+}
+
+.bulk-props .bulk-props-none {
+	padding: var(--size-4-2);
+}
+
+.bulk-props .bulk-props-count {
+	color: var(--text-muted);
+	font-size: var(--font-ui-smaller);
+	white-space: nowrap;
+}
+
+.bulk-props .bulk-props-file {
+	padding: 2px var(--size-4-2);
+	font-size: var(--font-ui-smaller);
+}
+
+.bulk-props .bulk-props-header,
+.bulk-props .bulk-props-footer,
+.bulk-props .bulk-props-tools {
+	display: flex;
+	align-items: center;
+	gap: var(--size-4-2);
+	margin: var(--size-4-2) 0;
+}
+
+.bulk-props .bulk-props-footer {
+	justify-content: space-between;
+	color: var(--text-muted);
+	font-size: var(--font-ui-smaller);
+}
+
+.bulk-props .bulk-props-title {
+	font-weight: var(--font-semibold);
+}
+
+.bulk-props .bulk-props-ticked,
+.bulk-props .bulk-props-label {
+	margin: var(--size-4-2) 0;
+	color: var(--text-muted);
+	font-size: var(--font-ui-smaller);
+}
