@@ -1,5 +1,7 @@
 # Bulk Properties
 
+> **This plugin is now part of [Vault Management](https://github.com/VeryRandomness/obsidian-vault-management)**, which combines bullet variants, color swatches, bulk property editing and theme updates in one plugin. This repo is archived and no longer updated.
+
 An [Obsidian](https://obsidian.md) plugin to change properties across every note at once.
 
 Run **Bulk edit properties** from the command palette, or click the list-checks icon in the ribbon.
